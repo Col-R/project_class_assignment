@@ -11,6 +11,11 @@ public class Project {
         return ("Name: " + this.name + ", Description: " + this.description);
     }
 
+    // Constructors
+    Project(){
+        this.name = "none";
+        this.description = "none";
+    }
     public Project(String nameParam, String descriptionParam){
         this.name = nameParam;
         this.description = descriptionParam;

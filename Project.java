@@ -25,4 +25,12 @@ public class Project {
         this.description = description;
     }
 
+    //getters
+    public String getName(){
+        return name;
+    }
+    public String getDescription(){
+        return description;
+    }
+
 }

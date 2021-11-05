@@ -13,12 +13,16 @@ public class Project {
 
     // Constructors
     Project(){
-        this.name = "none";
-        this.description = "none";
+        this.name = "no name";
+        this.description = "no description";
     }
-    public Project(String nameParam, String descriptionParam){
-        this.name = nameParam;
-        this.description = descriptionParam;
+    Project(String name){
+        this.name = name;
+        this.description = "no description";
+    }
+    Project(String name, String description){
+        this.name = name;
+        this.description = description;
     }
 
 }

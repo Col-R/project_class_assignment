@@ -25,7 +25,7 @@ public class Project {
         this.description = description;
     }
 
-    //getters
+    // getters
     public String getName(){
         return name;
     }
@@ -33,4 +33,11 @@ public class Project {
         return description;
     }
 
+    // setters
+    public void setName(String name){
+        this.name=name;
+    }
+    public void setDescription(String description){
+        this.description=description;
+    }
 }
